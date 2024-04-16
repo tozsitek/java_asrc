@@ -1,4 +1,4 @@
-package tau_ch6_ObjectsClasses;
+package tau.ch6_ObjectClasses;
 
 public class HomeAreCalculator {
 

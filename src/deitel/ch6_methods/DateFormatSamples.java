@@ -1,4 +1,4 @@
-package dietel_ch6_methods;
+package deitel.ch6_methods;
 
 import java.text.Format;
 import java.text.SimpleDateFormat;

@@ -1,4 +1,4 @@
-package deitel_ch7_arrayAndArrayList;
+package deitel.ch7_arrayAndArrayList;
 
 public class DeckOfCardsTest {
 

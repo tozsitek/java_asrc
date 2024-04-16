@@ -1,4 +1,4 @@
-package tau_ch_5_methods;
+package tau.ch5_Methods;
 
 import java.util.Scanner;
 

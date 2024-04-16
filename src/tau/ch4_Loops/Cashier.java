@@ -1,4 +1,4 @@
-package loops_ch4;
+package tau.ch4_Loops;
 
 import java.util.Scanner;
 

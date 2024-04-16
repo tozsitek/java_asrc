@@ -1,4 +1,4 @@
-package deitel_ch7_arrayAndArrayList;
+package deitel.ch7_arrayAndArrayList;
 import java.security.SecureRandom;
 
 public class DeckOfCards {
