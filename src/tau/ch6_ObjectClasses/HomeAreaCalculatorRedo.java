@@ -12,7 +12,7 @@ public class HomeAreaCalculatorRedo {
 
   public static Rectangle getRoom(){
 
-    Scanner scanner = new Scanner((System.in);
+    Scanner scanner = new Scanner(System.in);
     return null;
   }
 

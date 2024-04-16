@@ -1,4 +1,4 @@
-package testStrings;
+package sandbox.playWithStrings;
 import java.util.random.RandomGenerator;
 import java.util.Random;
 //import org.apache.commons.lang3.RandomStringUtils;

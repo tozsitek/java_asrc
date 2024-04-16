@@ -1,4 +1,4 @@
-package testStrings;
+package sandbox.playWithStrings;
 
 public class CreateLargeStringWithSpace {
 
