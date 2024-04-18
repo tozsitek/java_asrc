@@ -1,4 +1,4 @@
-package sandbox.jasonparsing;
+package deitel.ch16_collections.sandbox.jasonparsing;
 
 import java.util.Arrays;
 import java.util.List;
@@ -81,12 +81,12 @@ public class Employee {
   @Override
   public String toString(){
     StringBuilder sb = new StringBuilder();
-    sb.append("*****Employee Details****");
+    sb.append("*****Employee Details****\n");
     sb.append("ID="+getId()+"\n");
     sb.append("Name="+getName()+"\n");
     sb.append("Permanent="+isPermanent()+"\n");
     sb.append("Role="+getRole()+"\n");
-    sb.append("Phone Numbers="+Arrays.toString(getCities().toArray())+"\n");
+    sb.append("Phone Numbers="+Arrays.toString(Arrays.stream(getPhoneNumbers()).toArray())+"\n");
     sb.append("Address="+getAddress()+"\n");
     sb.append("Cities="+Arrays.toString(getCities().toArray())+"\n");
     sb.append("Properties="+getProperties()+"\n");

@@ -1,4 +1,4 @@
-package sandbox.jasonparsing;
+package deitel.ch16_collections.sandbox.jasonparsing;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
@@ -6,15 +6,11 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
-import com.fasterxml.jackson.core.type.TypeReference;
-import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
-import com.fasterxml.jackson.databind.node.ObjectNode;
 //import com.journaldev.jackson.model.Address;
 //import com.journaldev.jackson.model.Employee;
 
@@ -33,7 +29,7 @@ public class JacksonObjectMapperExample {
 
     // convert json string to object
     Employee emp = objectMapper.readValue(jsonData, Employee.class);
-    System.out.println("Employee object:\n"+emp);
+    System.out.println("Employee object:\n" +emp);
 
     //Convert Object to json string
     Employee emp1 = createEmployee();

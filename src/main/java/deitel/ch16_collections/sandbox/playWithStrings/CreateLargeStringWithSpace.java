@@ -1,4 +1,4 @@
-package sandbox.playWithStrings;
+package deitel.ch16_collections.sandbox.playWithStrings;
 
 public class CreateLargeStringWithSpace {
 
