@@ -1,4 +1,4 @@
-package deitel.ch16_collections.sandbox.jasonparsing;
+package sandbox.jasonparsing;
 
 import java.util.Arrays;
 import java.util.List;

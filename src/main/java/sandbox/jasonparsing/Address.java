@@ -1,4 +1,4 @@
-package deitel.ch16_collections.sandbox.jasonparsing;
+package sandbox.jasonparsing;
 
 public class Address {
   private String street;

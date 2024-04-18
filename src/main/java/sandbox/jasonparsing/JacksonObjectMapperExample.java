@@ -1,4 +1,4 @@
-package deitel.ch16_collections.sandbox.jasonparsing;
+package sandbox.jasonparsing;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;

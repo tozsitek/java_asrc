@@ -1,4 +1,4 @@
-package deitel.ch16_collections.sandbox.asrc;
+package sandbox.asrc;
 
 import java.util.ArrayList;
 import java.util.Arrays;
