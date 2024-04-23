@@ -1,0 +1,15 @@
+{
+  "title": "Parsing Json in Java",
+  "author": "Marianna :-)",
+  "available": true,
+  "version": 1.0,
+  "dependencies": [
+    "Jackson",
+    "maven",
+    "junit"
+  ],
+  "photo": {
+    "url": "www.youtube.com",
+    "title": "just an example"
+  }
+}
