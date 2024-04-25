@@ -6,7 +6,7 @@ public class SleepIn {
     boolean weekday = true;
     boolean vacation = false;
 
-    System.out.println("Sleep in or not? " + sleepIn(weekday, vacation));
+    System.out.println("Sleep in true or false? " + sleepIn(weekday, vacation));
   }
 
   public static boolean sleepIn(boolean weekday, boolean vacation){
