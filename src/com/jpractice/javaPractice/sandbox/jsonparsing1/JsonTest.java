@@ -8,7 +8,9 @@ import java.io.IOException;
 public class JsonTest {
 
   public static void main(String[] args) throws IOException {
-    String jsonSource = "{\"title\":\"Marianna's json parsing\"}";
+    String jsonSource = "{\n + \"title\": \"Code from scracth\",\n"
+        + "  \"author\": \"Marianna\"}";
+
     try{
       JsonNode node = JsonUtil.parse(jsonSource);
       System.out.println("Title: " + node.get("title").asText());

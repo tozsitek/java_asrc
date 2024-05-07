@@ -22,7 +22,7 @@ public class JacksonObjectMapperExample {
   public static void main(String[] args) throws IOException {
     System.out.println(new File("").getAbsolutePath());
     // read json file data to String
-    byte[] jsonData = Files.readAllBytes(Paths.get("C:\\Users\\marianna.fields\\sanbox\\javaPractice\\src\\main\\java\\sandbox\\jasonparsing\\employee.txt"));
+    byte[] jsonData = Files.readAllBytes(Paths.get("C:\\Users\\marianna.fields\\sanbox\\javaPractice\\src\\com\\jpractice\\javaPractice\\sandbox\\jasonparsing\\employee.txt"));
 
     // create objectMapper instance
     ObjectMapper objectMapper = new ObjectMapper();

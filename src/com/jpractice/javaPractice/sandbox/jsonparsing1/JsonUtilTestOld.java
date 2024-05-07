@@ -1,5 +1,5 @@
 
-package com.jpractice.javaPractice.sandbox.jsonparsing1;
+package test;
 
 //import static org.junit.jupiter.api.Assertions.*;
 
@@ -12,7 +12,7 @@ import java.io.IOException;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-class JsonUtilTest {
+class JsonUtilTestOld {
   private String simpleTestCaseJsonSource = "{\"title\": \"Code from scracth\",\n"
       + "  \"author\": \"Marianna\"\n}";
   private String DayScenario1 = "{\"date\": \"2024-12-25\",\n"

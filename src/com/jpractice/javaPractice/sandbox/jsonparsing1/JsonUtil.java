@@ -6,6 +6,7 @@ import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
+import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.io.IOException;
 
 public class JsonUtil {
@@ -14,6 +15,7 @@ public class JsonUtil {
 
   private static ObjectMapper getDefaultObjectMapper(){
     ObjectMapper defaultObjectMapper = new ObjectMapper();
+    defaultObjectMapper.registerModule(new JavaTimeModule());
     defaultObjectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     return defaultObjectMapper;
   }
