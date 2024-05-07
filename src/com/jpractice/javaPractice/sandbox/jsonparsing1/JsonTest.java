@@ -1,4 +1,4 @@
-package main.javaPractice.sandbox.jsonparsing1;
+package com.jpractice.javaPractice.sandbox.jsonparsing1;
 
 import com.fasterxml.jackson.databind.JsonNode;
 import java.io.IOException;

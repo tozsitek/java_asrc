@@ -1,4 +1,4 @@
-package main.ASRCtest;
+package com.jpractice.ASRCtest;
 
 public class Test {
 

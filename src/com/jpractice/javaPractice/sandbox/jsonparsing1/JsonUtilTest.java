@@ -1,5 +1,5 @@
 /*
-package main.javaPractice.sandbox.jsonparsing1;
+package com.jpractice.javaPractice.sandbox.jsonparsing1;
 
 //import static org.junit.jupiter.api.Assertions.*;
 
@@ -25,6 +25,17 @@ class JsonUtilTest {
     JsonNode node = JsonUtil.toJson(pojo);
     //assertEquals(node.get("title").asText(), "Testing toJson");
     Assert.assertEquals(node.get("title").asText(), "Testing toJson");
+  }
+
+  @Test
+  void stringify() throws JsonProcessingException {
+    SimpleTestCaseJsonPOJO pojo = new SimpleTestCaseJsonPOJO();
+    pojo.setTitle("Testing 123");
+
+    JsonNode node = JsonUtil.toJson(pojo);
+    System.out.println(JsonUtil.stringify(node);
+    System.out.println(JsonUtil.prettyPrint(node);
+    //Assert.assertEquals(node.get("title").asText(), "Testing toJson");
   }
 }
 

@@ -1,4 +1,4 @@
-package main.javaPractice.sandbox.asrc;
+package com.jpractice.javaPractice.sandbox.asrc;
 
 import java.util.ArrayList;
 import java.util.Arrays;

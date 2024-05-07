@@ -1,9 +1,11 @@
-package main.javaPractice.sandbox.jsonparsing1;
+package com.jpractice.javaPractice.sandbox.jsonparsing1;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectWriter;
+import com.fasterxml.jackson.databind.SerializationFeature;
 import java.io.IOException;
 
 public class JsonUtil {
@@ -27,5 +29,25 @@ public class JsonUtil {
 
   public static JsonNode toJson(Object a){
     return objectMapper.valueToTree(a);
+  }
+
+  public static String stringify(JsonNode node) throws JsonProcessingException {
+    //ObjectWriter objectWriter = objectMapper.writer();
+    //return objectWriter.writeValueAsString(node);
+    return generateString(node, false);
+  }
+
+  public static String prettyPrint(JsonNode node) throws JsonProcessingException {
+    //ObjectWriter objectWriter = objectMapper.writer();
+    //objectWriter = objectWriter.with(SerializationFeature.INDENT_OUTPUT);
+    //return objectWriter.writeValueAsString(node);
+    return generateString(node, true);
+  }
+
+  private static String generateString(JsonNode node, boolean pretty) throws JsonProcessingException {
+    ObjectWriter objectWriter = objectMapper.writer();
+    if(pretty)
+      objectWriter = objectWriter.with(SerializationFeature.INDENT_OUTPUT);
+    return objectWriter.writeValueAsString(node);
   }
 }

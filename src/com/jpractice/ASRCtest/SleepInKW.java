@@ -1,4 +1,4 @@
-package main.ASRCtest;
+package com.jpractice.ASRCtest;
 
 import java.io.IOException;
 import java.util.Scanner;

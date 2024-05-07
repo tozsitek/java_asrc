@@ -1,4 +1,4 @@
-package main.javaPractice.assessments;
+package com.jpractice.javaPractice.assessments;
 
 public class FeedingSched_Ass4 {
   public static void main(String[] args) {

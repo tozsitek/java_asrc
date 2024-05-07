@@ -1,4 +1,4 @@
-package main.javaPractice.sandbox.jasonparsing;
+package com.jpractice.javaPractice.sandbox.jasonparsing;
 import java.io.File;
 import java.io.IOException;
 import java.io.StringWriter;
