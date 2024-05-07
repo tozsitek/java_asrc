@@ -1,4 +1,4 @@
-package sandbox.jasonparsing;
+package main.javaPractice.sandbox.jasonparsing;
 
 public class Address {
   private String street;

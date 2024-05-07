@@ -1,4 +1,4 @@
-package sandbox.jasonparsing;
+package main.javaPractice.sandbox.jasonparsing;
 
 import java.util.Arrays;
 import java.util.List;

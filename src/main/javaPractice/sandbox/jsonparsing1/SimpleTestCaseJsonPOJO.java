@@ -1,4 +1,4 @@
-package sandbox.jsonparsing1;
+package main.javaPractice.sandbox.jsonparsing1;
 
 public class SimpleTestCaseJsonPOJO {
   private String title;

@@ -1,6 +1,7 @@
-package sandbox.jsonparsing1;
+package main.javaPractice.sandbox.jsonparsing1;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.JsonNode;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.IOException;
@@ -11,6 +12,7 @@ public class JsonUtil {
 
   private static ObjectMapper getDefaultObjectMapper(){
     ObjectMapper defaultObjectMapper = new ObjectMapper();
+    defaultObjectMapper.configure(DeserializationFeature.FAIL_ON_UNKNOWN_PROPERTIES, false);
     return defaultObjectMapper;
   }
 
@@ -23,5 +25,7 @@ public class JsonUtil {
     return objectMapper.treeToValue(node, clazz);
   }
 
-
+  public static JsonNode toJson(Object a){
+    return objectMapper.valueToTree(a);
+  }
 }
