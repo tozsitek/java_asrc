@@ -1,4 +1,4 @@
-package deitel.ch7_arrayAndArrayList;
+package com.jpractice.javaPractice.deitel.ch7_arrayAndArrayList;
 
 public class Card {
   private final String face;

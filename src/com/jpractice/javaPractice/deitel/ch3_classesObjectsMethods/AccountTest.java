@@ -1,4 +1,4 @@
-package deitel.ch3_classesObjectsMethods;
+package com.jpractice.javaPractice.deitel.ch3_classesObjectsMethods;
 
 import java.util.Scanner;
 

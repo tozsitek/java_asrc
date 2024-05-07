@@ -1,4 +1,4 @@
-package jcg.groupBy;
+package com.jpractice.javaPractice.jcg.groupBy;
 
 import java.util.Map;
 import java.util.stream.Collectors;

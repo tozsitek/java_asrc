@@ -1,4 +1,4 @@
-package jcg.groupBy;
+package com.jpractice.javaPractice.jcg.groupBy;
 
 public class Employee {
   private int id;
