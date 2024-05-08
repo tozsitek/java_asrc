@@ -8,6 +8,7 @@ import com.fasterxml.jackson.databind.ObjectWriter;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import com.fasterxml.jackson.datatype.jsr310.JavaTimeModule;
 import java.io.IOException;
+import org.slf4j.impl.StaticLoggerBinder;
 
 public class JsonUtil {
   //private static ObjectMapper objectMapper = new ObjectMapper();
