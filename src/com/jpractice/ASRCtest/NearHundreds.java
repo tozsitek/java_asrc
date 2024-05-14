@@ -13,9 +13,9 @@ public class NearHundreds {
     System.out.println("n is near 100 or 200?: " + nearHundred(n));
   }
   public static boolean nearHundred(int n) {
-    if(Math.abs(100 -n) <= 10 || Math.abs(200 - n) <= 10){
+    if (Math.abs(100 - n) <= 10 || Math.abs(200 - n) <= 10) {
       return true;
-    }else{
+    } else {
       return false;
     }
   }
