@@ -11,8 +11,10 @@ backAround("a") → "aaa"
 public class BackAroundString {
 
   public static void main(String[] args) {
-    String str = "Hello";
+    //BackAroundString bas = new BackAroundString();
+    String str = "!!Mee!!";
     System.out.println(backAround(str));
+    //System.out.println(bas.backAround(str));
 
   }
   public static String backAround(String str) {
