@@ -17,10 +17,8 @@ import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 public class ReadExcelFileSample {
-  //System.setProperty("log4j.configurationFile","./path_to_the_log4j2_config_file/log4j2.xml");
-  private static final Logger LOG = LogManager.getLogger(ReadExcelFileSample.class);
-  Row row = null;
-  int cellIndex = 0;
+  //private static final Logger LOG = LogManager.getLogger(ReadExcelFileSample.class);
+
   final DataFormatter df = new DataFormatter();
   public void readExcel(String filePath,String fileName,String sheetName) throws IOException {
 
@@ -63,7 +61,7 @@ public class ReadExcelFileSample {
           // Get the date value from the cell
           Date date = cell.getDateCellValue();
           // Print the date value
-          System.out.println(date + "|| ");
+          System.out.print(date + " || ");
         }else{
           cell = (XSSFCell) row.getCell(j);
           valueAsString = df.formatCellValue(cell);
