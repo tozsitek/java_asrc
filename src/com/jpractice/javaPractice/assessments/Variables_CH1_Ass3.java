@@ -9,7 +9,6 @@ public class Variables_CH1_Ass3 {
     //numPets.length();
     //numGrains.length();
     name.length();
-
   }
 
 }

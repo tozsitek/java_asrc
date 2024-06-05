@@ -9,11 +9,11 @@ hasTeen(20, 10, 13) → true
 public class HasTeen {
 
   public static void main(String[] args) {
-    int a = 13;
-    int b = 20;
-    int c = 10;
+    int a = 20;
+    int b = 10;
+    int c = 13;
 
-    System.out.println("Has Teen: " + hasTeen(a,b,c));
+    System.out.println("Has Teen: " + hasTeenShortVersion(a,b,c));
   }
   public static boolean hasTeen(int a, int b, int c) {
     if(a >= 13 && a >= 19){
