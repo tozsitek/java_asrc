@@ -1,0 +1,64 @@
+{
+  "version": "",
+  "easementId": 0,
+  "caseFileId": 0,
+  "caseFileName": "",
+  "requestorAuthId": "",
+  "currentAuthId": "",
+  "stateCountyCode": "",
+  "caseServicingOfficeId": "",
+  "modificationStatus": "EasementMod-Submitted",
+  "modificationReasonId": 26,
+  "modificationRequesterNotes": "",
+  "modificationApproverNotes": "",
+  "modificationAllNotes": [
+    {
+      "date": "",
+      "userName": "Requestor: JESSICA LUDGATE",
+      "status": "Submitted",
+      "detail": "Mod Request"
+    }
+  ],
+  "modifications": [
+    {
+      "oldParcel": [
+        {
+          "easementShapeId": 0,
+          "easementId": 0,
+          "geometryStatusId": 5,
+          "geometryTypeId": 1,
+          "geometrySourceId": 1,
+          "geometrySourceMethodId": 1,
+          "geometryAccuracyId": 1,
+          "riparianLittoralBoundary": false,
+          "plssBoundary": false,
+          "programAcreage": 30.36,
+          "calculatedAcreage": 30.36,
+          "easementNotes": "",
+          "modificationNotes": "",
+          "envelopeFixed": false,
+          "easementGeometry": "POLYGON ((-93.36760686067106 37.09996742674201, -93.36975262788303 37.09801637121533, -93.35988209870798 37.09541488568869, -93.35992501405221 37.09544911634133, -93.36760686067106 37.09996742674201))"
+        }
+      ],
+      "newParcel": [
+        {
+          "easementShapeId": null,
+          "easementId": 0,
+          "geometryStatusId": 5,
+          "geometryTypeId": 1,
+          "geometrySourceId": 1,
+          "geometrySourceMethodId": 10,
+          "geometryAccuracyId": 5,
+          "riparianLittoralBoundary": true,
+          "plssBoundary": true,
+          "programAcreage": 30.36,
+          "calculatedAcreage": 30.36,
+          "easementNotes": "",
+          "modificationNotes": "",
+          "envelopeFixed": false,
+          "easementGeometry": "POLYGON ((-93.36760686067106 37.09996742674201, -93.36975262788303 37.09801637121533, -93.35988209870798 37.09541488568869, -93.35992501405221 37.09544911634133, -93.36760686067106 37.09996742674201))"
+        }
+      ]
+    }
+  ]
+}

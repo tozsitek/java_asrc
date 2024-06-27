@@ -28,7 +28,7 @@ public class ArrayListWithMultipleObjectTypes {
     // Inserting date values
     arr.add(new Date(05/24/2024));
 
-    // arr after all insertions: ["GeeksForGeeks", 14,
+    // arr after all insertions: ["Test String", 14,
     // 1800L, 6.0D, 1.99F]
 
     System.out.print(
